@@ -1,5 +1,6 @@
 'use strict'
-//starterCode ___________________
+
+//object starter code
 const people = ['Kookla','Fran','Ollie'];
 
 const stuff = {
@@ -13,6 +14,6 @@ let state = {};
 
 //Objects __________________
 let newPeople = ['Oldie', ...people, 'Garfield'];
-const newStuff = {...stuff, cars: [...stuff.cars, 'Jeep']};
+const newStuff = {...stuff, cars: [...stuff.cars, 'truck']};
 
-let newState = {...state, people: ['Oldie', ...people, 'Garfield'], stuff:{...stuff, cars:[...stuff.cars, 'Jeep']} };
+let newState = {...state, people: ['Oldie', ...people, 'Garfield'], stuff:{...stuff, cars:[...stuff.cars, 'truck']} };
